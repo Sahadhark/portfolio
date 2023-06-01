@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="header">
+      <nav class="nav bd_grid">
+        <div>
+          <a href="#" class="nav_logo">Sahadha Rk</a>
+        </div>
+
+        <div class="nav_menu" id="nav_menu">
+          <ul class="nav_list">
+            <li class="nav_items">
+              <a href="#home" class="nav_link active">Home</a>
+            </li>
+            <li class="nav_items">
+              <a href="#about" class="nav_link active">About</a>
+            </li>
+            <li class="nav_items">
+              <a href="#skills" class="nav_link active">Skills</a>
+            </li>
+            <li class="nav_items">
+              <a href="#work" class="nav_link active">Work</a>
+            </li>
+            <li class="nav_items">
+              <a href="#submit-form" class="nav_link active">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav_toggle" id="nav_toggle">
+          <i class="bx bx-menu-alt-right"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!-- HOME SECTION -->
+      <section class="home bd_grid" id="home">
+        <div class="home_data" data-aos="fade-down">
+          <h1 class="home_title">
+            Hi, <br />I'm <span class="home_title-color">Sahadha Rk</span
+            ><br />Web Designer
+          </h1>
+         
+        </div>
+
+      
+      </section>
+
+      <!-- ABOUT SECTION -->
+      <section class="about section" id="about">
+        <h2 class="section-title" data-aos="fade-down">About</h2>
+        <div class="img">
+          <img src="/20221115_081738.jpg" alt="" />
+        
+      
+            <h2
+              class="about_subtitle"
+              data-aos="fade-down"
+              data-aos-delay="350"
+            >
+              I'm Sahadha Rk
+            </h2>
+            <p class="about_text" data-aos="fade-down" data-aos-delay="450">
+              Hi i'm n aspiring MERN strack developer who loves<br>programming and problems solving. 
+              urrently i'm doing internship in brototype ,Tech based <br> education institution in kochi ,kerala,india
+            </p>
+          </div>
+        </div></div>
+      </section>
+
+      <!-- SKILLS SECTION -->
+      <section class="skills section" id="skills">
+        <h2 class="section-title" data-aos="fade-down">Skills</h2>
+
+        <div class="skills_container bd_grid">
+          <div>
+            <h2
+              class="skills_subtitle"
+              data-aos="fade-down"
+              data-aos-delay="250"
+            >
+              Professional Skills
+            </h2>
+            <p class="skills_text" data-aos="fade-down" data-aos-delay="350">
+              Without sharpen your weapon; standing on the battlefield would not
+              increase your chance of winning
+            </p>
+            <!-- SKILLS HTML -->
+            <div class="skills_data" data-aos="fade-right">
+              <div class="skills_name">
+                <i class="bx bxl-html5 skill_icon"></i>
+                <span class="skill_name">Html5</span>
+              </div>
+
+              <div><span class="skill_percentage">95%</span></div>
+
+              <div class="skill_bar skill_html"></div>
+            </div>
+
+            <!-- SKILLS css -->
+            <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+              <div class="skills_name">
+                <i class="bx bxl-css3 skill_icon"></i>
+                <span class="skill_name">CSS3</span>
+              </div>
+
+              <div><span class="skill_percentage">85%</span></div>
+
+              <div class="skill_bar skill_css"></div>
+            </div>
+
+            <!-- SKILLS JS -->
+            <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+              <div class="skills_name">
+                <i class="bx bxl-javascript skill_icon"></i>
+                <span class="skill_name">JS</span>
+              </div>
+
+              <div><span class="skill_percentage">75%</span></div>
+
+              <div class="skill_bar skill_js"></div>
+            </div>
+
+            <!-- SKILLS UI/UX -->
+            <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+              <div class="skills_name">
+                <i class="bx bxs-paint skill_icon"></i>
+                <span class="skill_name">UI / UX</span>
+              </div>
+
+              <div><span class="skill_percentage">85%</span></div>
+
+              <div class="skill_bar skill_ui"></div>
+            </div>
+          </div>
+
+       
+          </div>
+        </div>
+      </section>
+
+      <!-- WORK SECTION -->
+      <section class="work section" id="work">
+        <h2 class="section-title" data-aos="fade-down">Work</h2>
+
+        <div
+          class="work_container bd_grid"
+          data-aos="fade-down"
+          data-aos-delay="250"
+        >
+          <div class="work_img">
+            <img src="Screenshot Apple.png" alt="" />
+          </div>
+
+          <div class="work_img">
+            <img src="Screenshot zomto.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT SECTION -->
+      
+      <form id="submit-form" name="submit-form" action="https://script.google.com/macros/s/AKfycbwXKcBpe2-Qu8zhYe6yr_z31biCAw9He3Dk1NuunH8muH76oxY-HJ5bRWo1ZcXp34l5hQ/exec" method="post">
+        <h2>content</h2>
+        <div class="form-group fullname">
+          <label for="fullname">Full Name</label>
+          <input type="text" id="fullname" placeholder="Enter your full name">
+        </div>
+        <div class="form-group email">
+          <label for="email">Email Address</label>
+          <input type="text" id="email" placeholder="Enter your email address">
+        </div>
+        <div class="form-group password">
+          <label for="Phone number">Phone number</label>
+          <input type="tel" id="phone number" placeholder="Enter your number">
+          <i id="pass-toggle-btn" class="fa-solid fa-eye"></i>
+        </div>
+      
+        </div>
+        <div class="form-group submit-btn">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+      <script src="main.js"></script>
+    
+    
+     
+
+        
+      </section>
+
+      <!-- Footer Section -->
+      <footer class="footer">
+        <p class="footer_title" data-aos="fade-down">sahadha rk</p>
+
+        <div class="footer_socials">
+         
+          <a
+            href="http://www.instagram.com/sahdha_shern"
+            class="footer_icon"
+            data-aos="fade-down"
+            data-aos-delay="350"
+            ><i class="bx bxl-instagram"></ihttp://www.instagram.com/sahdha_shern
+          ></a>
+         
+          <a
+            href="#"
+            class="footer_icon"
+            data-aos="fade-down"
+            data-aos-delay="550"
+            ><i class="bx bxl-in"></i
+          ></a>
+        </div>
+
+        <p data-aos="fade-down" data-aos-delay="650">
+          &#169; 2021 copyright all right reserved
+        </p>
+      </footer>
+    </main>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+    <script>
+      $("#submit-form").submit((e)=>{
+          e.preventDefault()
+          $.ajax({
+              url:"https://script.google.com/macros/s/AKfycbwXKcBpe2-Qu8zhYe6yr_z31biCAw9He3Dk1NuunH8muH76oxY-HJ5bRWo1ZcXp34l5hQ/exec",
+              data:$("#submit-form").serialize(),
+              method:"post",
+              success:function (response){
+                  alert("Form submitted successfully")
+                  window.location.reload()
+                  //window.location.href="https://google.com"
+              },
+              error:function (err){
+                  alert("Something Error")
+  
+              }
+          })
+      })
+  </script>
+
+    <script>
+      AOS.init({
+        duration: 1200,
+        once: false,
+      });
+    </script>
+  </body>
+</html>
+
